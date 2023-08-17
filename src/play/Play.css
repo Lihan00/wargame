@@ -1,0 +1,80 @@
+.playbody {
+    background-color: black;
+    height: 88vh;
+    align-items: center;
+    flex-direction: row;
+}
+
+.playinput {
+    display: flex;
+    justify-content: center;
+}
+
+.playlogin {
+    color: white;
+    font-size: 4vh;
+    font-weight: 700;
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.playid {
+    color: white;
+    background-color: darkslategray;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 15vw;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.playpw {
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 15vw;
+    margin-top: 1.5vh;
+}
+
+.playregister {
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 15vw;
+    margin-top: 1.5vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.playbottom {
+
+}
+
+.lineone {
+    height: 1vh;
+}
+
+.linetwo {
+    background-color: black;
+    height: 2.5vh;
+}
+
+.linethree {
+    height: 1.5vh;
+}
+
+.linefour {
+    background-color: gray;
+    height: 1.5vh;
+}
+
+.linefive {
+    height: 2.5vh;
+}
+
+.linesix {
+    background-color: lightgray;
+    height: 1vh;
+}

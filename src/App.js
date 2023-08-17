@@ -5,6 +5,12 @@ import Notice from "./pages/Notice";
 import Rank from "./pages/Rank";
 import My from "./pages/My";
 import Community from "./pages/Community";
+import Play from "./play/Play";
+import PlayMain from "./play/PlayMain";
+import PlayNotice from "./play/PlayNotice";
+import PlayRank from "./play/PlayRank";
+import PlayMy from "./play/PlayMy";
+import PlayCommunity from "./play/PlayCommunity";
 
 function App() {
   /*
@@ -39,6 +45,12 @@ function App() {
       <Route path="/rank" element={<Rank/>}/>
       <Route path="/community" element={<Community/>}/>
       <Route path="/my" element={<My/>}/>
+      <Route path="/play/login" element={<Play/>}/>
+      <Route path="/play" element={<PlayMain/>}/>
+      <Route path="/play/notice" element={<PlayNotice/>}/>
+      <Route path="/play/rank" element={<PlayRank/>}/>
+      <Route path="/play/community" element={<PlayCommunity/>}/>
+      <Route path="/play/my" element={<PlayMy/>}/>
     </Routes>
   );
 }

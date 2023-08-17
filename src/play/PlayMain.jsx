@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./Main.css"
 import Black from "../img/black.png";
 import Red from "../img/red.png";
 
-const Main = () => {
+const PlayMain = () => {
     const [img, setImg] = useState(0);
     setInterval(() => {
             if (img === 0) setImg(1)
@@ -34,4 +33,4 @@ const Main = () => {
     )
 }
 
-export default Main;
+export default PlayMain;

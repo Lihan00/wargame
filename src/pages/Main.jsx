@@ -1,10 +1,21 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./Main.css"
+import Black from "../img/black.png";
+import Red from "../img/red.png";
 
 const Main = () => {
-    
+    const [img, setImg] = useState(0);
+    let timer = setInterval(() => {
+            if (img === 0) setImg(1)
+            if (img === 1) setImg(0)
+    }, 20000);
+
     return (
-        <>
+        <>  
+            <div className="backset">
+                {img === 0 && (<img className="back" src={Black}/>)}
+                {img === 1 && (<img className="back" src={Red}/>)}
+            </div>
             <div className="header">
                 <div className="logo">LOGO</div>
                 <div className="menu"></div>

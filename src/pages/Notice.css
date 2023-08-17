@@ -1,0 +1,63 @@
+.noticeheader {
+    padding-top: 5vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+.notices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.notice {
+    border: 1.5px solid black;
+    height: 30vh;
+    width: 30vh;
+    margin: 0 1vh;
+}
+
+.star {
+    text-align: right;
+    margin-right: 1vh;
+    font-size: 2.5vh;
+    color: yellow;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+}
+
+.noticeowner {
+    margin-top: 17vh;
+    margin-left: 1vh;
+}
+
+.noticetitle {
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
+.date {
+    margin-top: 1.5vh;
+    text-align: right;
+    margin-right: 1vh;
+}
+
+.linegroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2vh 0;
+}
+.leftline, .line, .rightline {
+    background-color: black;
+    height: 13px;
+    width: 20vh;
+}
+
+.line {
+    height: 2px;
+    width: 87vh;
+}
+

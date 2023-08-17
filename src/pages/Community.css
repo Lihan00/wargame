@@ -1,0 +1,66 @@
+.board {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.boardleft {
+    width: 87vh;
+}
+.boardheader {
+    padding-top: 5vh;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+.boardline {
+    background-color: black;
+    height: 2px;
+    width: 67vh;
+}
+
+.boardright {
+    width: 40vh;
+    padding-top: 7vh;
+}
+
+.exam {
+    background-color: lightgray;
+    height: 40vh;
+    width: 35vh;
+    float: right;
+}
+.blistuser, .blisttitle, .blistview, .blistdate {
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+
+.blistuser, .blistu {
+    width: 10vh;
+}
+
+.blisttitle, .blistt {
+    width: 33vh;
+    text-align: center;
+}
+
+.blistview, .blistv {
+    width: 34vh;
+    text-align: center;
+}
+
+.blistdate, .blistd {
+    width: 10vh;
+    text-align: right;
+}
+
+.blistline {
+    width: 127vh;
+    background-color: black;
+    height: 2px;
+}
+
+.blistu, .blistt, .blistv, .blistd {
+    font-weight: 500;
+    font-size: 2.2vh;
+}

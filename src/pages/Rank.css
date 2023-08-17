@@ -1,0 +1,112 @@
+.ranktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rankform {
+    margin: 0 2vw;
+}
+
+.rankimgone {
+    background-color: lightgray;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    margin: 0 5vw;
+}
+
+.rankimg {
+    margin-top: 10vh;
+    background-color: lightgray;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100%;
+}
+
+.rankuser {
+    font-weight: 600;
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.rankscore {
+    font-weight: 600;
+    font-size: 4vh;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.rankcomment {
+    font-weight: 600;
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+.rankbottom {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rlistrank, .rlistuser, .rlistcomment, .rlistscore {
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+
+.rlistrank {
+    width: 15vh;
+}
+
+.rlistuser {
+    width: 15vh;
+    text-align: center;
+}
+
+.rlistcomment {
+    width: 82vh;
+    text-align: center;
+}
+
+.rlistscore {
+    width: 15vh;
+}
+
+.rlistline {
+    width: 127vh;
+    background-color: black;
+    height: 2px;
+}
+
+.rlist {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rlistr, .rlistu, .rlistc, .rlists {
+    font-weight: 500;
+    font-size: 2.2vh;
+}
+
+.rlistr {
+    width: 15vh;
+}
+
+.rlistu {
+    width: 15vh;
+}
+
+.rlistc {
+    width: 82vh;
+}
+
+.rlists {
+    width: 15vh;
+}

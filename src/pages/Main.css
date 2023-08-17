@@ -1,0 +1,85 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 7vh;
+}
+
+.logo {
+    color: white;
+    flex: 2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vh;
+    padding-bottom: 1vh;
+}
+
+.menu {
+    flex: 5;
+}
+
+.user {
+    color: white;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.5vh;
+}
+
+.login {
+    flex: 1;
+    padding-left: 5vw;
+}
+
+.register {
+    flex: 1;
+    padding-right: 3vw;
+}
+
+.body {
+    height: 93vh;
+    width: 100vw;
+}
+
+.cate {
+    color: red;
+    padding-top: 20vh;
+    margin-left: 8vw;
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+
+.title {
+    font-weight: bold;
+    margin-left: 8vw;
+    font-size: 4vh;
+    margin-top: 2vh;
+}
+
+.service {
+    color: gray;
+    margin-left: 8vw;
+    margin-top: 6vh;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+.play {
+    background-color: red;
+    color: white;
+    padding: 7px 10px;
+    width: 105px;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.play:hover, .logo:hover, .login:hover, .register:hover {
+    cursor: pointer;
+}
+

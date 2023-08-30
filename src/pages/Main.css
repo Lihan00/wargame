@@ -1,3 +1,7 @@
+.whole{
+    overflow-x: hidden;
+}
+
 .header {
     background-color: black;
     display: flex;
@@ -41,8 +45,9 @@
 }
 
 .body {
-    height: 93vh;
+    height: 75vh;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 .cate {
@@ -109,4 +114,9 @@
     to { 
         left: 0px;
     }
+ }
+
+ .noticehome, .rankhome, .board, .myhome {
+    width: 97vw;
+    margin-top: 10vh;
  }

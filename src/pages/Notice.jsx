@@ -4,7 +4,7 @@ import "./Notice.css"
 const Notice = () => {
     
     return (
-        <>
+        <div>
             <div className="header">
                 <div className="logo">LOGO</div>
                 <div className="menu"></div>
@@ -43,7 +43,7 @@ const Notice = () => {
                     <div className="date">2000.00.00</div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
